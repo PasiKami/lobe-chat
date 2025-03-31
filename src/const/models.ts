@@ -6,7 +6,7 @@ export const systemToUserModels = new Set([
 ]);
 
 // TODO: 临时写法，后续要重构成 model card 展示配置
-export const disableStreamModels = new Set(['o1', 'o1-2024-12-17']);
+export const disableStreamModels = new Set(['none']);
 
 /**
  * models support context caching
